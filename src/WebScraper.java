@@ -32,7 +32,7 @@ public class WebScraper {
 
         for (int i = 0; i < words.length; i++) {
             if (words[i].contains("Hamlet")) {
-                counter++;
+                counter +=2;
             }
         }
             System.out.println(counter);
